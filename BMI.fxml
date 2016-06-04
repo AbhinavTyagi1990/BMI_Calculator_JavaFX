@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="480.0" prefWidth="412.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="bmi.BMIController">
+    <children>
+        <Button fx:id="button" layoutX="155.0" layoutY="272.0" onAction="#handleButtonAction" text="Calculate" />
+        <Label fx:id="label" alignment="CENTER" layoutX="14.0" layoutY="381.0" minHeight="16" minWidth="69" prefHeight="64.0" prefWidth="180.0" text="0.0">
+         <font>
+            <Font name="System Bold Italic" size="24.0" />
+         </font></Label>
+      <TextArea layoutX="193.0" layoutY="319.0" prefHeight="147.0" prefWidth="206.0" text="BMI VALUES&#10;Underweight:&#9;less than 18.5&#10;Normal:&#9;&#9;between 18.5 and 24.9&#10;Overweight:&#9;between 25 and 29.9&#10;Obese:&#9;&#9;30 or greater&#10;">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </TextArea>
+      <TextField fx:id="weight" layoutX="110.0" layoutY="145.0" />
+      <TextField fx:id="height" layoutX="110.0" layoutY="213.0" />
+      <RadioButton fx:id="pi" layoutX="60.0" layoutY="47.0" mnemonicParsing="false" selected="true" text="Pounds-Inches">
+         <toggleGroup>
+            <ToggleGroup fx:id="ip" />
+         </toggleGroup>
+      </RadioButton>
+      <RadioButton fx:id="km" layoutX="227.0" layoutY="47.0" mnemonicParsing="false" text="Kilograms-Meters" toggleGroup="$ip" />
+      <Label layoutX="119.0" layoutY="117.0" text="Weight" />
+      <Label layoutX="119.0" layoutY="190.0" text="Height" />
+      <Label layoutX="28.0" layoutY="319.0" prefHeight="50.0" prefWidth="152.0" text="Your BMI is:">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+    </children>
+</AnchorPane>
