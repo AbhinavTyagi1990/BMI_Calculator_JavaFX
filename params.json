@@ -1,0 +1,6 @@
+{
+  "name": "Bmi calculator javafx",
+  "tagline": "BMI calculator in javafx",
+  "body": "### Welcome to BMI Calculator\r\nThis application will ask your weight and height and calculate the BMI of the person and provides the details to verify that whether person is overweight, underweight, normal or obese \r\n\r\n\r\n\r\n### Authors and Contributors\r\nAbhinav Tyagi (Master of Computer Information Systems @ Florida Tech) \r\n\r\n\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
